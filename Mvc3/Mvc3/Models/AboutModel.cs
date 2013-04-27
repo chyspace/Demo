@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace Mvc3.Models
 {
@@ -14,10 +15,11 @@ namespace Mvc3.Models
         [HiddenInput]
         public string DemoField2 { get; private set; }
 
+        [Display(Name = "DisplayName")]
         public string DemoField1 { get; private set; }
 
 
-
+        [Required]
         public string Username { get; set; }
 
         public string NickName { get; set; }
