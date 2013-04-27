@@ -1,0 +1,25 @@
+﻿@model  Mvc3.Models.AboutModel
+
+@{
+    ViewBag.Title = "About Us";
+}
+
+<h2>About</h2>
+
+@{Html.BeginForm();}
+<div class = "Container">
+
+    <div class = "Item">
+        @Html.EditorForModel()
+    </div>
+@*    <div class = "Item">
+        @Html.LabelFor(m => m.NickName)
+        @Html.TextBoxFor(m => m.NickName)
+    </div>*@
+</div>
+
+<input type="submit" value="Update" />
+
+@{Html.EndForm();}
+
+

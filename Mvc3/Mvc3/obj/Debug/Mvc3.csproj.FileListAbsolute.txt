@@ -1,0 +1,4 @@
+D:\Projects\Mvc3\Mvc3\bin\Mvc3.dll
+D:\Projects\Mvc3\Mvc3\bin\Mvc3.pdb
+D:\Projects\Mvc3\Mvc3\obj\Debug\Mvc3.dll
+D:\Projects\Mvc3\Mvc3\obj\Debug\Mvc3.pdb
